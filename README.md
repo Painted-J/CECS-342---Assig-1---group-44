@@ -26,7 +26,7 @@ Make sure to cover edge cases like empty or invalid input.
 
 ## To-do list
 
-- [ ] Quicksort in C by TBD
+- [ ] Quicksort in C by A Random Person
 - [ ] Mergesort in C by Teetee
 - [ ] Quicksort in haskell by TBD
 - [ ] Mergesort in haskell by Painted J
