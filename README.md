@@ -1,4 +1,4 @@
-# CECS-342 Assig-1 group-44
+# CECS-342  Assig-1 Group-44
 
 In this assignment you will compare the procedural with the functional programming paradim.
 
@@ -26,8 +26,8 @@ Make sure to cover edge cases like empty or invalid input.
 
 ## To-do list
 
-- [] Quicksort in C by TBD
-- [] Mergesort in C by Teetee
-- [] Quicksort in haskell by TBD
-- [] Mergesort in haskell by Painted J
-- [] Written explanation by TBD
+- [ ] Quicksort in C by TBD
+- [ ] Mergesort in C by Teetee
+- [ ] Quicksort in haskell by TBD
+- [ ] Mergesort in haskell by Painted J
+- [ ] Written explanation by TBD
