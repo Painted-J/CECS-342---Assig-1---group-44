@@ -7,9 +7,11 @@ In this assignment you will compare the procedural with the functional programmi
 2. Write each sorting algorithm in C and in Haskell by implementing the following procedures/functions:
 
 > void quick_sort(int *a, int n);   // quick sort an array a with n elements in C
+> 
 > void merge_sort(int *a, int n);   // merge sort an array a with n elements in C
 
 > quickSort :: Ord a => [a] -> [a]  -- quick sort a list in Haskell
+> 
 > mergeSort :: Ord a => [a] -> [a]  -- merge sort a list in Haskell
 
 3. The implementation of merge sort in C will require a temporary array. This array has to be dynamically allocated (not automatically).
