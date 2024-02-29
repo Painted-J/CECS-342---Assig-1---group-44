@@ -1,4 +1,6 @@
-mergeSort :: Ord a => [a] -> [a]
+-- quickSort :: Ord a => [a] -> [a]  -- quick sort a list in Haskell
+
+mergeSort :: Ord a => [a] -> [a]  -- merge sort a list in Haskell
 mergeSort [] = []
 mergeSort [x] = [x]
 mergeSort xs = merge (mergeSort firstHalf) (mergeSort secondHalf)
@@ -23,3 +25,5 @@ main = do
     print $ mergeSort "qwertyuiopasdfghjklzxcvbnm"
     putStr "[1] = "
     print $ mergeSort [1]
+
+    putStrLn "\nQuick Sort test:\n"
