@@ -73,18 +73,37 @@ int main()
     int my_array[] = {24, 19, 2, 5, 49, 100, 63, 45, 28};
     int n = sizeof(my_array) / sizeof(my_array[0]);
 
-    printf("Our old unsorted array: ");
+    printf("\nOur old unsorted array: [ ");
     for (int i = 0; i < n; i++) {
         printf("%d ", my_array[i]);
     }
+    printf("]");
 
     // call mergesort function to sort the arrays
     merge_sort(my_array, n);
 
-    printf("\nOur new sorted array: ");
+    printf("\nOur new sorted array: [ ");
     for (int i = 0; i < n; i++) {
         printf("%d ", my_array[i]);
     }
+    printf("]\n");
+
+    int my_array2[] = {};
+    int n2 = sizeof(my_array2) / sizeof(my_array2[0]);
+
+    printf("\nOur old unsorted empty array: [ ");
+    for (int i = 0; i < n2; i++) {
+        printf("%d ", my_array2[i]);
+    }
+    printf("]");
+
+    merge_sort(my_array2, n2);
+
+    printf("\nOur new sorted empty array: [ ");
+    for (int i = 0; i < n2; i++) {
+        printf("%d ", my_array2[i]);
+    }
+    printf("]\n\n");
 
     return 0;
 }

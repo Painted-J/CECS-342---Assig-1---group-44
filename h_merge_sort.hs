@@ -1,5 +1,3 @@
--- quickSort :: Ord a => [a] -> [a]  -- quick sort a list in Haskell
-
 mergeSort :: Ord a => [a] -> [a]  -- merge sort a list in Haskell
 mergeSort [] = []
 mergeSort [x] = [x]
@@ -16,7 +14,7 @@ mergeSort xs = merge (mergeSort firstHalf) (mergeSort secondHalf)
 
 main :: IO ()
 main = do
-    putStrLn "Merge Sort test:\n"
+    putStrLn "\nMerge Sort test:\n"
     putStr "[9,8,7,6,5,4,3,2,1] = "
     print $ mergeSort [9, 8, 7, 6, 5, 4, 3, 2, 1]
     putStr "[5,-3,2,9,7,-20,10,1,6] = "
@@ -25,5 +23,5 @@ main = do
     print $ mergeSort "qwertyuiopasdfghjklzxcvbnm"
     putStr "[1] = "
     print $ mergeSort [1]
-
-    putStrLn "\nQuick Sort test:\n"
+    putStr "[] = "
+    print $ mergeSort ([] :: [Int]) -- Test case with an empty list

@@ -37,18 +37,36 @@ int main() {
     int test[] = {10, 3, 5, 18, 39, 64, 3, 128};
     int n = sizeof(test)/sizeof(test[0]);
 
-    printf("Unsorted arary: ");
+    printf("\nUnsorted arary: [ ");
     for (int i = 0; i < n; i++) {
         printf("%d ", test[i]);
     }
-    printf("\n");
+    printf("]\n");
 
     quicksort(test, 0, n - 1);
 
-    printf("Sorted array: ");
+    printf("Sorted array: [ ");
     for (int i = 0; i < n; ++i) {
         printf("%d ", test[i]);
     }
+    printf("]\n");
 
+    int test2[] = {};
+    int n2 = sizeof(test2)/sizeof(test2[0]);
+
+    printf("\nUnsorted empty array: [ ");
+    for (int i = 0; i < n2; i++) {
+        printf("%d ", test2[i]);
+    }
+    printf("]\n");
+
+    quicksort(test2, 0, n2 - 1);
+
+    printf("Sorted empty array: [ ");
+    for (int i = 0; i < n2; ++i) {
+        printf("%d ", test2[i]);
+    }
+    printf("]\n\n");
+    
     return 0;
 }
