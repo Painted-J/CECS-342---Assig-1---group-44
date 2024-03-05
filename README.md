@@ -30,6 +30,6 @@ Make sure to cover edge cases like empty or invalid input.
 
 - [x] Quicksort in C by A Random Person
 - [x] Mergesort in C by Teetee
-- [ ] Quicksort in haskell by Yes Sir
+- [x] Quicksort in haskell by Yes Sir
 - [x] Mergesort in haskell by Painted J
 - [ ] Written explanation by Arius
