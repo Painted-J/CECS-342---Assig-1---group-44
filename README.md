@@ -29,7 +29,7 @@ Make sure to cover edge cases like empty or invalid input.
 ## To-do list
 
 - [ ] Quicksort in C by A Random Person
-- [ ] Mergesort in C by Teetee
+- [x] Mergesort in C by Teetee
 - [ ] Quicksort in haskell by Yes Sir
 - [x] Mergesort in haskell by Painted J
 - [ ] Written explanation by Arius
