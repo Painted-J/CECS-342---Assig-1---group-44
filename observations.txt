@@ -1,0 +1,24 @@
+- Observations:
+
+A key difference to note in both programming languages is the immutability of Haskell
+and the mutability of C. This resulted in a slight change between the implementations of
+the sorting algorithms as Haskell does not have a built-in function of loops and is forced
+into a more recursive approach than in C. One key difference between the code for
+mergesort in C and the code for mergesort in Haskell was the use of a temporary array
+in the implementation for C which was used to sort the merged subarrays more
+efficiently rather than allocate and deallocate memory. Another difference between c
+and Haskell found in the implementations was the length of the code in quicksort as the
+nature of Haskell allows more to be done with fewer lines as with Haskell you can utilize
+its list handling capabilities. However, despite the difference in length of code, a
+similarity for both types of data structure was that they both resulted in the same time
+complexity as mergesort in C and Haskell was 0(n log(n)) and quicksort in C and
+Haskell sharing the same worst time complexity 0(n^2). Both of the implementation’s
+algorithmic approaches were also similar as mergesort in C and Haskell was done by
+dividing the array into halves, sorting each half with recursion, and then merging each
+sorted half. This similarity can be seen with the implementation of quicksort as in both C
+and Haskell a pivot element is selected then partition the array into halves and sorting
+each half.
+
+- Tools used:
+
+VsCode, Replit, GHCi, Hoogle, Discord, GitHub.
